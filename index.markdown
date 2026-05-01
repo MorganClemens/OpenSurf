@@ -6,7 +6,7 @@ layout: default
 
 # OpenSurf
 
-Making ocean conditions understandable, accessable, and shared (In Development ☕️).
+Making ocean conditions understandable, accessable, and shared (in development ☕️).
 
 
 [Read the blog](/blog/)  
