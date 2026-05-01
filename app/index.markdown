@@ -4,7 +4,7 @@ title: App
 permalink: /app/
 ---
 
-# OpenSurf App
+<link rel="stylesheet" href="/assets/css/style.css">
 
 The OpenSurf web app will live here.
 
