@@ -1,11 +1,14 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
+# macOS
 .DS_Store
+
+# Jekyll build output
 _site/
+
+# Jekyll / Sass caches
 .jekyll-cache/
-.bundle/
+.jekyll-metadata
 .sass-cache/
+
+# Bundler
+.bundle/
 vendor/
