@@ -55,3 +55,47 @@ a:hover {
   color: #0d47a1;
   text-decoration: none;
 }
+
+.post {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.post-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.post-title {
+  font-size: 3rem;
+  line-height: 1.1;
+}
+
+.post-meta {
+  text-align: center;
+  color: #00695c;
+  font-size: 1.1rem;
+}
+
+.post-content {
+  text-align: left;
+}
+
+.post-content p {
+  text-align: left;
+  font-size: 1.15rem;
+  line-height: 1.7;
+}
+
+.post-content ul,
+.post-content ol {
+  text-align: left;
+  list-style-position: outside;
+  margin: 1rem 0 1.5rem 2rem;
+}
+
+.post-content li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
