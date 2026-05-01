@@ -3,7 +3,6 @@ layout: page
 title: Blog
 permalink: /blog/
 ---
-<link rel="stylesheet" href="/assets/css/style.css">
 
 Short updates about building OpenSurf.
 
