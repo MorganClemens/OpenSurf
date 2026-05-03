@@ -10,7 +10,7 @@
 body {
   min-height: 100vh;
   background: linear-gradient(to bottom, #e0f7fa, #b2ebf2);
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
   color: #004d40;
 }
 
@@ -21,81 +21,85 @@ body {
 
 .page-content {
   min-height: 100vh;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: none;
+  padding: 0;
+}
+
+.home-hero {
+  min-height: 100vh;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   text-align: center;
   padding: 2rem;
 }
 
-.wrapper {
-  max-width: 600px;
+.home-hero__content {
+  transform: translateY(-1rem);
 }
 
-h1 {
-  font-size: 3rem;
-  font-weight: 700;
-  margin-bottom: 0.5rem;
-}
-
-p {
-  font-size: 1.2rem;
-  color: #00695c;
-  margin-bottom: 1.5rem;
-}
-
-a {
-  color: #00796b;
-  text-decoration: underline;
-  font-weight: 600;
-  transition: color 0.3s ease;
-}
-
-a:hover {
-  color: #0d47a1;
-  text-decoration: none;
-}
-
-.post {
-  max-width: 720px;
-  margin: 0 auto;
-  text-align: left;
-}
-
-.post-header {
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
-.post-title {
-  font-size: 3rem;
+.home-hero h1 {
+  font-size: clamp(2.4rem, 5vw, 3.25rem);
   line-height: 1.1;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
 }
 
-.post-meta {
-  text-align: center;
+.home-hero__tagline {
+  max-width: 440px;
+  margin: 0 auto 1.75rem;
   color: #00695c;
-  font-size: 1.1rem;
-}
-
-.post-content {
-  text-align: left;
-}
-
-.post-content p {
-  text-align: left;
-  font-size: 1.15rem;
-  line-height: 1.7;
-}
-
-.post-content ul,
-.post-content ol {
-  text-align: left;
-  list-style-position: outside;
-  margin: 1rem 0 1.5rem 2rem;
-}
-
-.post-content li {
-  margin-bottom: 0.5rem;
+  font-size: clamp(1rem, 2vw, 1.15rem);
   line-height: 1.6;
+}
+
+.home-hero__actions {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 112px;
+  padding: 0.55rem 0.95rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px rgba(0, 77, 64, 0.12);
+}
+
+.button-primary {
+  background: #004d40;
+  color: white;
+}
+
+.button-secondary {
+  background: rgba(255, 255, 255, 0.78);
+  color: #004d40;
+  border: 1px solid rgba(0, 77, 64, 0.14);
+}
+
+@media (max-width: 640px) {
+  .home-hero__actions {
+    gap: 1rem;
+  }
+
+  .button {
+    min-width: 120px;
+  }
 }
