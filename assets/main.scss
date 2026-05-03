@@ -163,3 +163,90 @@ body {
     min-width: 120px;
   }
 }
+
+.post-list {
+  padding: 1.25rem 2rem 3rem;
+}
+
+.page-header {
+  padding: 3rem 2rem 0.75rem;
+}
+
+.page-header__inner {
+  max-width: 700px;
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(0, 77, 64, 0.1);
+  padding-bottom: 1rem;
+}
+
+.page-back-link {
+  display: inline-block;
+  margin-bottom: 0.75rem;
+  font-size: 0.85rem;
+  color: #00695c;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.page-back-link:hover {
+  opacity: 1;
+}
+
+.page-header h1 {
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+  letter-spacing: -0.01em;
+}
+
+.page-header__subtitle {
+  max-width: none;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: #00695c;
+  opacity: 0.9;
+}
+
+.post-list ul {
+  list-style: none;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.post-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0.65rem 0;
+  border-bottom: 1px solid rgba(0, 77, 64, 0.12);
+  font-size: 1rem;
+}
+
+.post-list-item:hover a {
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+.post-list-item a {
+  color: #004d40;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.post-date {
+  color: #00695c;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.85rem;
+  opacity: 0.9;
+  white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+  .post-list-item {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+}
