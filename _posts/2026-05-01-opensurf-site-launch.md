@@ -4,7 +4,9 @@ title: "Launching the OpenSurf site"
 date: 2026-05-01
 ---
 
-Today I finished setting up the OpenSurf website using Jekyll and GitHub Pages! Stoked to have this little piece of infrastructure completed. 
+<a class="post-back-link" href="/blog/">← build log</a>
+
+Today I finished setting up the OpenSurf website using Jekyll and GitHub Pages. Stoked to have this little piece of infrastructure completed. 
 
 The goal of OpenSurf is to make ocean conditions easier to understand, share, and build on for free. 
 
