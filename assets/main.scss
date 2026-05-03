@@ -63,6 +63,7 @@ body {
   justify-content: center;
   gap: 0.75rem;
   flex-wrap: wrap;
+  margin-top: 1.5rem;
 }
 
 .button {
@@ -92,6 +93,61 @@ body {
   background: rgba(255, 255, 255, 0.78);
   color: #004d40;
   border: 1px solid rgba(0, 77, 64, 0.14);
+}
+
+.placeholder-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.placeholder-card {
+  width: min(100%, 620px);
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(0, 77, 64, 0.12);
+  border-radius: 18px;
+  padding: clamp(2rem, 5vw, 3rem);
+  box-shadow: 0 18px 50px rgba(0, 77, 64, 0.1);
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 2rem;
+  color: #00796b;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  color: #0d47a1;
+}
+
+.placeholder-eyebrow {
+  margin-bottom: 0.75rem;
+  color: #00695c;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.placeholder-card h1 {
+  margin-bottom: 1rem;
+  font-size: clamp(2rem, 5vw, 3rem);
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.placeholder-card p {
+  color: #00695c;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.placeholder-card p + p {
+  margin-top: 1rem;
 }
 
 @media (max-width: 640px) {
