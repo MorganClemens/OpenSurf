@@ -50,6 +50,10 @@ body {
   letter-spacing: -0.02em;
 }
 
+.app-placeholder h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+}
+
 .home-hero__tagline {
   max-width: 440px;
   margin: 0 auto 1.75rem;
@@ -81,7 +85,7 @@ body {
 
 .button:hover {
   transform: translateY(-1px);
-  box-shadow: 0 8px 20px rgba(0, 77, 64, 0.12);
+  box-shadow: 0 6px 16px rgba(0, 77, 64, 0.08);
 }
 
 .button-primary {
