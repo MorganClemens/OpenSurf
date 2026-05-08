@@ -12,7 +12,7 @@ The goal of OpenSurf is to make ocean conditions easier to understand, share, an
 
 Right now the project includes:
 
-- a CLI tool for surf conditions (located in my GitHub)
+- a CLI tool for surf conditions (private on GitHub but going public soon)
 - a simple website to document progress (completed today)
 - a placeholder for a future web app
 
