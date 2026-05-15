@@ -12,3 +12,11 @@ _site/
 # Bundler
 .bundle/
 vendor/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Secrets
+.env
